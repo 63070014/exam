@@ -15,17 +15,19 @@
 
     <div class="container">
         <h2>Add values</h2>
-        <form action="abc_insert.php" method="post" id="CommentForm"></form>
-        <div class="form-group">
-            <label for="usr">A</label>
-            <input type="text" class="form-control" id="usr" name="username">
-        </div>
-        <div class="form-group">
-            <label for="comment">B</label>
-            <input type="text" class="form-control" id="usr" name="username">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        <button href="showexam.php" class="btn btn-danger">Cancel</button>
+        <form action="abc_insert.php" method="post" id="ABC" placeholder="Enter Number"> <br>
+            <div class="form-group">
+                <label for="usr">A</label>
+                <input type="text" class="form-control" id="idA" name="A" placeholder="Enter Number"> <br>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="comment">B</label>
+                    <input type="text" class="form-control" id="idB" name="B">
+                </div>
+            </div>
+            <input type="submit" id="commentBtn" class="btn btn-primary">
+            <a href="showexam.php" class="btn btn-danger">Cancel</a>
         </form>
     </div>
 
