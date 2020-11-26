@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How do u feel?</title>
+<title>A B C</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -23,12 +23,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <div class="form">
         <p class="ex1"><h1><center>A B C</center></h1></p>
     </div>
-  <table width="800" border="1" class="table table-hover table-striped" class="center" >
+  <table width="900" border="1" class="table table-hover table-striped" class="center" >
     <thead class="thead-pink">
     <tr bgcolor="pink" class="active">
-      <th width="200"> <div align="center">A</div></th>
-      <th width="500"> <div align="center">B</div></th>
-      <th width="100"> <div align="center">C</div></th>
+      <th width="300"> <div align="center">A</div></th>
+      <th width="300"> <div align="center">B</div></th>
+      <th width="300"> <div align="center">C</div></th>
     </tr>
      </thead>
   <?php
