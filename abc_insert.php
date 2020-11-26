@@ -10,9 +10,10 @@ if (mysqli_connect_errno($conn))
 
 $A = $_POST['A'];
 $B = $_POST['B'];
+$C = $_POST['C'];
 
 
-$sql = "INSERT INTO guestbook (A , B) VALUES ('$A', '$B')";
+$sql = "INSERT INTO guestbook (A , B) VALUES ('$A', '$B', '$C')";
 
 
 if (mysqli_query($conn, $sql)) {
